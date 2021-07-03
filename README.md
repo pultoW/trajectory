@@ -3,9 +3,14 @@ This is the “Data Availability” statement for "Deep Learning-based Service S
 
 The original data is the GPS data of taxis in Shenzhen, China, which is continuously sampled by the GPS devices during time period 2011/04/18 - 2011/04/26.
 
+
+
 Considering the large amount of original data(about 10G), the processed data is submitted here(trajetroy.pkl).
 
+
+
 If you want to view the data, it is advised to use the Python3 satement "with open(./trajectory.pkl,'rb')as file:return pickle.load(file)".
+
 
 
 The "trajectory.pkl" is stored in dictionray format:
